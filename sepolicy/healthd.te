@@ -1,0 +1,4 @@
+recovery_only(`
+    # detect_key & offmode_charging
+    allow healthd input_device:chr_file write;
+')
