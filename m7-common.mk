@@ -152,8 +152,7 @@ PRODUCT_COPY_FILES += \
 
 # Enable Google Assistant
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opa.eligible_device=true \
-    ro.product.model=Pixel XL
+    ro.opa.eligible_device=true
 
 # Include non-opensource parts
 $(call inherit-product-if-exists, vendor/htc/m7-common/m7-common-vendor.mk)
