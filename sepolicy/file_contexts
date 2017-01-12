@@ -25,6 +25,9 @@
 # CMHW
 /sys/devices/virtual/timed_output/vibrator/voltage_level   u:object_r:vibeamp_sysfs:s0
 
+# Encryption
+/dev/block/platform/msm_sdcc\.1/by-name/extra  u:object_r:metadata_block_device:s0
+
 # Modem
 /dev/block/mmcblk0p17           u:object_r:modem_efs_partition_device:s0
 /dev/block/mmcblk0p20           u:object_r:modem_efs_partition_device:s0
